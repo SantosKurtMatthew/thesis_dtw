@@ -1,0 +1,5 @@
+\section{Scope and Limitations of the Study}
+
+The framework of node graphs will follow the Implication-Realization Temporal-Gestalt (IR-TG) Graph framework used by Conanan et al in their model \cite{FosterNarmour, TenneyPolansky}. For the consistency and comparison of results, the same dataset of 39 compositions from Bach, Chopin, and Ysaye will be used in this paper as used by Conanan et al \cite{ConananEtAl}. The compositions will be represented as MusicXML and MIDI files and analyzed through the music21 Python library. All of the compositions are monophonic.
+
+The data gathering, feature extraction, segmentation, and performance metrics for graph analysis will be retained from Conanan et al as defined in their methodology. This paper will focus on improving the graph construction portion of the model due to the high runtime creating a bottleneck. The implementation of dynamic time warping used in the model will be modified to potentially have a lesser runtime than the implementation used by Conanan et al. Performance metrics for runtime of the graph will be added to the model alongside the existing performance metrics for graph analysis.
