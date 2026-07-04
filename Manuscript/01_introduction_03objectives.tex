@@ -1,0 +1,9 @@
+\section{Research Objectives}
+
+This paper aims to improve the runtime of DTW and apply it to the model for IR-TG graphs created by Conanan et al. These changes are aimed to reduce the runtime of the DTW algorithm and implement parallelization. It seeks to evaluate the extent of these improvements and put them into a single model. Lastly, it aims to show that the improved model has a comparable performance to the original in terms of accuracy. The specific objectives are:
+\begin{enumerate}
+    \item To implement a version of DTW with a runtime of less than $O(n^2)$ as described by Gold and Sharir.
+    \item To implement a parallelized version of the modified DTW so that more than a single calculation of DTW may be done at a single time.
+    \item To combine these two improvements into a single model that has a lower runtime than the model by Conanan et al and produces comparable scores in the performance metrics.
+\end{enumerate}
+
