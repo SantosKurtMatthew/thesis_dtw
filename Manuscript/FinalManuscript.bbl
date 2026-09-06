@@ -1,0 +1,183 @@
+\begin{thebibliography}{10}
+
+\bibitem{AdefemiParallelization}
+Temitayo Adefemi.
+\newblock What every computer scientist needs to know about parallelization.
+\newblock {\em arXiv}, 2025.
+
+\bibitem{ModernMDS}
+Ingwer Borg and Patrick~J.F. Groenen.
+\newblock {\em Modern Multidimensional Scaling}.
+\newblock Springer, 2007.
+
+\bibitem{Burkholder}
+J.~Peter Burkholder.
+\newblock {\em Music Theory and Musicology}.
+\newblock University of California Press, 1993.
+
+\bibitem{GPUParallelization}
+Cristian Campos, Rafael Asenjo, Javier Hormigo, and Angeles Navarro.
+\newblock Computing dtws on cpu, gpu and fpga with sycl.
+\newblock {\em Euro-Par 2024: Parallel Processing Workshops}, 2024.
+
+\bibitem{ChanDominance}
+Timothy Chan.
+\newblock All-pairs shortest paths with real weights in $o(n^3/log n)$ time.
+\newblock {\em Algorithms and Data Structures}, 2008.
+
+\bibitem{ClarkCook}
+Eric Clark and Cook Nicholas.
+\newblock {\em Empirical Musicology: Aims, Methods, Prospects}.
+\newblock Oxford University Press, 2004.
+
+\bibitem{ConananEtAl}
+Raul~Jarod Conanan, Lance~Dominic Santuyo, and Al~Vincent Bomediano.
+\newblock Representing classical compositions through implication realization
+  temporal-gestalt graphs, 2025.
+
+\bibitem{music21Creation}
+Michael~Scott Cuthbert and Christopher Ariza.
+\newblock music21: A toolkit for computer-aided musicology and symbolic music
+  data.
+\newblock {\em 11th International Society for Music Information Retrieval
+  Conference}, 2010.
+
+\bibitem{duraj}
+Lech Duraj.
+\newblock A sub-quadratic algorithm for the longest common increasing
+  subsequence problem, 2020.
+
+\bibitem{Durrani}
+Omer~Khan Durrani and Sayed AbdulHayan.
+\newblock Performance measurement of popular sorting algorithm implemented
+  using java and python.
+\newblock {\em International Conference on Electrical, Computer, Communications
+  and Mechatronics Engineering}, 2022.
+
+\bibitem{FosterNarmour}
+Raymond Foster.
+\newblock {\em Reviewed Work(s): THe Analysis and Cognition of Basic Melodic
+  Structures: The Implication Realization Model by Eugene Narmour}.
+\newblock Indiana University Press, 1992.
+
+\bibitem{OmerGold}
+Omer Gold and Micha Sharir.
+\newblock Dynamic time warping and geometric edit distance: Breaking the
+  quadratic barrier.
+\newblock {\em ACM Transactions on Algorithms}, 14(4), 2018.
+
+\bibitem{MusicXMLStandard}
+Michael Good.
+\newblock Lessons from the adoption of musicxml as an interchange standard.
+\newblock 2006.
+
+\bibitem{HernandezOlivanBeltran}
+Carlos Hernandez-Olivan and Jose Beltra.
+\newblock Symbolic music structure analysis with graph representations and
+  changepoint detection methods.
+\newblock {\em Neurocomputing}, 2025.
+
+\bibitem{HuangParallelComputing}
+Yukai Huang.
+\newblock Parallel computing and its applications.
+\newblock {\em IEEE International Conference on Artificial Intelligence and
+  Computer Applications (ICAICA)}, 2022.
+
+\bibitem{WenEtAl}
+Wen R.{,} Chen K.{,} Zhang Y.{,} Huang W.{,} Tian J.{,}~Xu K.{,} and Wu~J.
+\newblock A model of music perceptual theory based on markov chains.
+\newblock {\em Proceedings of the 30th Chinese Control and Decision Conference,
+  CCDC 2018}, pages 1099--1105, 2018.
+
+\bibitem{Kanungo}
+Praggnya Kanungo.
+\newblock Optimization techniques for high-performance python code in data
+  science applications.
+\newblock {\em Iconic Research and Engineering Journals}, 2021.
+
+\bibitem{kernighan-lin}
+B.W. Kernighan and S.~Lin.
+\newblock An efficient heuristic procedure for partitioning graphs.
+\newblock {\em Bell System Technical Journal}, 1970.
+
+\bibitem{NonmetricMDS}
+J.B. Kruskal.
+\newblock Multidimensional scaling by optimizing goodness of fit to a nonmetric
+  hypothesis.
+\newblock {\em Psychometrika}, 1964.
+
+\bibitem{bigO}
+Firdous~Ahmad Mala and Rouf Ali.
+\newblock The big-o of mathematics and computer science.
+\newblock {\em Journal of Applied Mathematics and Computation}, 2022.
+
+\bibitem{nandan}
+K.~Nandan~Babu and S.~Saxena.
+\newblock Parallel algorithms for the longest common subsequence problem.
+\newblock In {\em Proceedings Fourth International Conference on
+  High-Performance Computing}, pages 120--125, 1997.
+
+\bibitem{graph2vec}
+Annamalai Narayanan, Mahinthan Chandramohan, Rajasekar Venkatesan, Lihui Chen,
+  Yang Liu, and Shantanu Jaiswal.
+\newblock graph2vec: Learning distributed representations of graphs.
+\newblock {\em arXiv}, 2017.
+
+\bibitem{OrioRoda}
+Nicola Orio and Antonio Roda.
+\newblock A measure of melodic similarity based on a graph representation of
+  the music structure.
+\newblock {\em 10th International Society for Music Information Retrieval
+  Conference}, 2009.
+
+\bibitem{paparrizos}
+John Paparrizos, Haojun Li, Fan Yang, Kaize Wu, Jens~E. d'Hondt, and Odysseas
+  Papapetrou.
+\newblock A survey on time-series distance measures, 2024.
+
+\bibitem{peng2025interpretingcursedimensionalitydistance}
+Dehua Peng, Zhipeng Gui, and Huayi Wu.
+\newblock Interpreting the curse of dimensionality from distance concentration
+  and manifold effect, 2025.
+
+\bibitem{sakoe}
+H.~Sakoe and S.~Chiba.
+\newblock Dynamic programming algorithm optimization for spoken word
+  recognition.
+\newblock {\em IEEE Transactions on Acoustics, Speech, and Signal Processing},
+  26(1):43--49, February 1978.
+
+\bibitem{weisfeiler-lehman}
+Nino Shervashidze, Pascal Schweitzer, Erik~Jan van Leeuwen, Kurt Mehlhorn, and
+  Karsten~M. Borgwardt.
+\newblock Weisfeiler-lehman graph kernels.
+\newblock {\em Journal of Machine Learning Research}, 2011.
+
+\bibitem{shifaz}
+Ahmed Shifaz, Charlotte Pelletier, Francois Petitjean, and Geoffrey~I. Webb.
+\newblock Elastic similarity and distance measures for multivariate time
+  series, 2023.
+
+\bibitem{SimonettaEtAl}
+Federico Simonetta, Filippo Carnovalini, Nicola Orio, and Antonio Roda.
+\newblock Symbolic music similarity through a graph-based representation.
+\newblock {\em Audio Mostly 2018: Sound in Immersion and Emotion}, 2018.
+
+\bibitem{msm}
+Alexandra Stefan, Vassilis Athitsos, and Gautam Das.
+\newblock The move-split-merge metric for time series.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  25(6):1425--1438, 2013.
+
+\bibitem{TenneyPolansky}
+James Tenney and Larry Polansky.
+\newblock Temporal gestalt perception in music.
+\newblock {\em Journal of Music Theory}, 1980.
+
+\bibitem{TralieDempsey}
+Christopher Tralie and Elizabeth Dempsey.
+\newblock Exact, parallelizable dynamic time warping alignment with linear
+  memory.
+\newblock {\em ISMIR}, 2020.
+
+\end{thebibliography}

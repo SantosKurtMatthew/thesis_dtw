@@ -1,0 +1,663 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.14)  6 SEP 2026 17:29
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/user/Desktop/Acads/Thesis/1_Code/Manuscript/FinalManuscript.tex
+(c:/Users/user/Desktop/Acads/Thesis/1_Code/Manuscript/FinalManuscript.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-07-20>
+(discsthesis.cls
+Document Class: discsthesis 2005/05/11 v3.0 Ateneo de Manila University DISCS Thesis Class
+(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2026/05/19 v2.18d AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen150
+)) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen151
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count276
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count277
+\leftroot@=\count278
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count279
+\DOTSCASE@=\count280
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen152
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count281
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count282
+\dotsspace@=\muskip17
+\c@parentequation=\count283
+\dspbrk@lvl=\count284
+\tag@help=\toks18
+\row@=\count285
+\column@=\count286
+\maxfields@=\count287
+\andhelp@=\toks19
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
+\@envbody=\toks20
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2965.
+LaTeX Info: Redefining \] on input line 2966.
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\newcent.sty
+Package: newcent 2020/03/25 PSNFSS-v9.3 (SPQR) 
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
+Package: epsfig 2024/01/14 v1.7b (e)psfig emulation (SPQR)
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
+)
+\epsfxsize=\dimen161
+\epsfysize=\dimen162
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count288
+\calc@Bcount=\count289
+\calc@Adimen=\dimen163
+\calc@Bdimen=\dimen164
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count290
+\calc@Cskip=\skip54
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
+\c@tracingmulticols=\count291
+\mult@box=\box55
+\multicol@leftmargin=\dimen165
+\c@unbalance=\count292
+\c@collectmore=\count293
+\doublecol@number=\count294
+\multicoltolerance=\count295
+\multicolpretolerance=\count296
+\full@width=\dimen166
+\page@free=\dimen167
+\premulticols=\dimen168
+\postmulticols=\dimen169
+\multicolsep=\skip55
+\multicolbaselineskip=\skip56
+\partial@page=\box56
+\last@line=\box57
+\mc@boxedresult=\box58
+\maxbalancingoverflow=\dimen170
+\mult@rightbox=\box59
+\mult@grightbox=\box60
+\mult@firstbox=\box61
+\mult@gfirstbox=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\c@minrows=\count297
+\c@columnbadness=\count298
+\c@finalcolumnbadness=\count299
+\last@try=\dimen171
+\multicolovershoot=\dimen172
+\multicolundershoot=\dimen173
+\mult@nat@firstbox=\box99
+\colbreak@box=\box100
+\mc@col@check@num=\count300
+\g__mc_curr_col_int=\count301
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
+\col@sep=\dimen174
+\ar@mcellbox=\box101
+\extrarowheight=\dimen175
+\NC@list=\toks23
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box102
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen176
+\TX@old@table=\dimen177
+\TX@old@col=\dimen178
+\TX@target=\dimen179
+\TX@delta=\dimen180
+\TX@cols=\count302
+\TX@ftn=\toks24
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks25
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count303
+\c@chapter=\count304
+\c@section=\count305
+\c@subsection=\count306
+\c@subsubsection=\count307
+\c@paragraph=\count308
+\c@subparagraph=\count309
+\c@figure=\count310
+\c@table=\count311
+\abovecaptionskip=\skip59
+\belowcaptionskip=\skip60
+\bibindent=\dimen181
+)
+*************************************************************
+** ADMU DISCS Thesis Class File, version 3.1, 10 Oct 2005
+** Originally Written by Felix Pozon Muga II 
+** Mathematics Department 
+** Ateneo de Manila University 
+** fmuga@ateneo.edu
+** With modifications by Andrei Coronel, Reena Estuar, 
+** JP Vergara and Eric Vidal 
+*************************************************************
+\bibindent=\dimen182
+\hour=\count312
+\minute=\count313
+\dow=\count314
+\leap=\count315
+\x=\count316
+\y=\count317
+\c@tbl=\count318
+\c@fig=\count319
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip61
+\multirow@cntb=\count320
+\multirow@dima=\skip62
+\bigstrutjot=\dimen183
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2026/04/16 4.6a verbatim text (tvz,hv)
+\FV@CodeLineNo=\count321
+\FV@InFile=\read2
+\FV@TabBox=\box103
+\c@FancyVerbLine=\count322
+\FV@StepNumber=\count323
+\FV@OutFile=\write3
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count324
+\c@@ppsavesec=\count325
+\c@@ppsaveapp=\count326
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen184
+\captionmargin=\dimen185
+\caption@leftmargin=\dimen186
+\caption@rightmargin=\dimen187
+\caption@width=\dimen188
+\caption@indent=\dimen189
+\caption@parindent=\dimen190
+\caption@hangindent=\dimen191
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionskip \sbox \@tempboxa {#1. #2}\ifdim \wd \@tempboxa >\hsize #1. #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \belowcaptionskip  on input line 1175.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count327
+\c@continuedfloat=\count328
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count329
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count330
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count331
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box104
+)
+\tc@llx=\dimen192
+\tc@lly=\dimen193
+\tc@urx=\dimen194
+\tc@ury=\dimen195
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen196
+\adjbox@Height=\dimen197
+\adjbox@Depth=\dimen198
+\adjbox@Totalheight=\dimen199
+\adjbox@pwidth=\dimen256
+\adjbox@pheight=\dimen257
+\adjbox@pdepth=\dimen258
+\adjbox@ptotalheight=\dimen259
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count332
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box105
+\sift@deathcycles=\count333
+\@vwid@loff=\dimen260
+\@vwid@roff=\dimen261
+)
+==> First Aid for varwidth.sty applied!
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2026-01-28 v4.27 Multi-page Table package (DPC)
+\LTleft=\skip63
+\LTright=\skip64
+\LTpre=\skip65
+\LTpost=\skip66
+\LTchunksize=\count334
+\LTcapwidth=\dimen262
+\LT@head=\box106
+\LT@firsthead=\box107
+\LT@foot=\box108
+\LT@lastfoot=\box109
+\LT@gbox=\box110
+\LT@cols=\count335
+\LT@rows=\count336
+\c@LT@tables=\count337
+\c@LT@chunks=\count338
+\LT@p@ftn=\toks28
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count339
+\l_MT_multwidth_dim=\dimen263
+\origjot=\skip67
+\l_MT_shortvdotswithinadjustabove_dim=\dimen264
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen265
+\l_MT_above_intertext_sep=\dimen266
+\l_MT_below_intertext_sep=\dimen267
+\l_MT_above_shortintertext_sep=\dimen268
+\l_MT_below_shortintertext_sep=\dimen269
+\xmathstrut@box=\box111
+\xmathstrut@dim=\dimen270
+)
+LaTeX Font Info:    Trying to load font information for OT1+pnc on input line 21.
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pnc.fd
+File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-07-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count340
+) (FinalManuscript.aux)
+\openout1 = `FinalManuscript.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count341
+\scratchdimen=\dimen271
+\scratchbox=\box112
+\nofMPsegments=\count342
+\nofMParguments=\count343
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count344
+\MPscratchDim=\dimen272
+\MPnumerator=\count345
+\makeMPintoPDFobject=\count346
+\everyMPtoPDFconversion=\toks30
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+ [1
+
+{C:/Users/user/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (01_introduction_00.tex
+Chapter 1.
+
+Overfull \hbox (12.89366pt too wide) in paragraph at lines 5--6
+[]\OT1/pnc/m/n/12 Representing mu-sic through a graph-based rep-re-sen-ta-tion is a novel method
+ []
+
+[1
+
+] (01_introduction_01contextofstudy.tex [2]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 8.
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+) [3]
+Overfull \hbox (24.20671pt too wide) in paragraph at lines 10--11
+\OT1/pnc/m/n/12 that is an-a-lyzed for its struc-ture and sim-i-lar-ity, fol-low-ing the Implication-Realization
+ []
+
+[4] [5]
+Overfull \hbox (3.29343pt too wide) in paragraph at lines 20--21
+[]\OT1/pnc/m/n/12 Parallelization has been an-other method of im-prov-ing the run-time of DTW.
+ []
+
+) (01_introduction_02researchquestions.tex
+Overfull \hbox (1.78871pt too wide) in paragraph at lines 3--5
+\OT1/pnc/m/n/12 through im-ple-men-ta-tions of DTW us-ing de-ter-min-is-tic al-go-rithm and par-al-lelized
+ []
+
+[6]) (01_introduction_03objectives.tex [7]) (01_introduction_05scopeandlimitations.tex) (01_introduction_04significanceofstudy.tex [8])) (02_relatedliterature.tex [9]
+Chapter 2.
+[10
+
+] [11] [12]
+<Figures/subsets.png, id=52, 853.68938pt x 125.71968pt>
+File: Figures/subsets.png Graphic file (type png)
+<use Figures/subsets.png>
+Package pdftex.def Info: Figures/subsets.png  used on input line 35.
+(pdftex.def)             Requested size: 374.86774pt x 55.20555pt.
+<Figures/squares.png, id=54, 1355.8153pt x 550.30594pt>
+File: Figures/squares.png Graphic file (type png)
+<use Figures/squares.png>
+Package pdftex.def Info: Figures/squares.png  used on input line 40.
+(pdftex.def)             Requested size: 374.86774pt x 152.1533pt.
+ [13 <./Figures/subsets.png>]
+<Figures/staircasepath.png, id=60, 1093.08376pt x 484.81125pt>
+File: Figures/staircasepath.png Graphic file (type png)
+<use Figures/staircasepath.png>
+Package pdftex.def Info: Figures/staircasepath.png  used on input line 45.
+(pdftex.def)             Requested size: 374.86774pt x 166.26138pt.
+ [14 <./Figures/squares.png>]
+<Figures/L_R.png, id=65, 1135.99406pt x 546.54187pt>
+File: Figures/L_R.png Graphic file (type png)
+<use Figures/L_R.png>
+Package pdftex.def Info: Figures/L_R.png  used on input line 50.
+(pdftex.def)             Requested size: 374.86774pt x 180.35103pt.
+ [15 <./Figures/staircasepath.png> <./Figures/L_R.png>]
+<Figures/pathVW.png, id=71, 1322.69156pt x 695.59875pt>
+File: Figures/pathVW.png Graphic file (type png)
+<use Figures/pathVW.png>
+Package pdftex.def Info: Figures/pathVW.png  used on input line 56.
+(pdftex.def)             Requested size: 374.86774pt x 197.13324pt.
+ [16 <./Figures/pathVW.png>] [17] [18] [19]
+Overfull \hbox (1.81421pt too wide) in paragraph at lines 85--86
+[]\OT1/pnc/m/n/12 An up-per bound of this divide-and-conquer pro-ce-dure is given by $\OML/cmm/m/it/12 O\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 g [] g\OT1/cmr/m/n/12 )$\OT1/pnc/m/n/12 .
+ []
+
+[20]
+Overfull \hbox (8.57011pt too wide) in paragraph at lines 100--101
+\OT1/pnc/m/n/12 im-prove upon the time com-plex-ity of the al-go-rithm. By im-ple-ment-ing the SMAWK
+ []
+
+[21] [22] [23] [24] [25] [26] [27]
+Overfull \hbox (3.37367pt too wide) in paragraph at lines 152--153
+\OT1/pnc/m/n/12 ac-tion into smaller parts and then hav-ing the dif-fer-ent pro-ces-sors run the smaller
+ []
+
+
+Overfull \hbox (0.60265pt too wide) in paragraph at lines 155--155
+[]\OT1/pnc/b/n/12 Performance Met-rics for Implication-Realization Temporal-Gestalt
+ []
+
+[28] [29] [30] [31]
+Overfull \hbox (6.97935pt too wide) in paragraph at lines 183--184
+[]\OT1/pnc/m/n/12 Afterwards, Mul-ti-di-men-sional Scal-ing is used in or-der to com-pare segment-
+ []
+
+[32] [33] [34]) (03_methodology.tex [35]
+Chapter 3.
+<Plain_Methodology.png, id=140, 1907.125pt x 1297.84875pt>
+File: Plain_Methodology.png Graphic file (type png)
+<use Plain_Methodology.png>
+Package pdftex.def Info: Plain_Methodology.png  used on input line 3.
+(pdftex.def)             Requested size: 441.01772pt x 300.12283pt.
+[36
+
+ <./Plain_Methodology.png>]
+<Base Graph Construction.png, id=146, 1505.625pt x 501.875pt>
+File: Base Graph Construction.png Graphic file (type png)
+<use Base Graph Construction.png>
+Package pdftex.def Info: Base Graph Construction.png  used on input line 16.
+(pdftex.def)             Requested size: 441.01772pt x 147.00269pt.
+ [37]
+<Plain NoNormalization Graph Construction.png, id=150, 1907.125pt x 1003.75pt>
+File: Plain NoNormalization Graph Construction.png Graphic file (type png)
+<use Plain NoNormalization Graph Construction.png>
+Package pdftex.def Info: Plain NoNormalization Graph Construction.png  used on input line 19.
+(pdftex.def)             Requested size: 441.01772pt x 232.11356pt.
+
+Overfull \hbox (36.135pt too wide) in paragraph at lines 19--21
+[][]
+ []
+
+[38 <./Base Graph Construction.png> <./Plain NoNormalization Graph Construction.png>] [39] [40] [41]
+Overfull \hbox (16.03705pt too wide) in paragraph at lines 51--52
+[]\OT1/pnc/m/n/12 The segment-level sim-i-lar-ity be-tween two graphs will be de-ter-mined through
+ []
+
+) [42] (FinalManuscript.bbl [43] [44
+
+] [45] [46] [47]
+Underfull \hbox (badness 1033) in paragraph at lines 151--155
+[]\OT1/pnc/m/n/12 Nino Sher-vashidze, Pas-cal Schweitzer, Erik Jan van Leeuwen, Kurt
+ []
+
+[48]
+
+FinalManuscript.bbl:183: LaTeX Error: \begin{spacing} on input line 1 ended by \end{thebibliography}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 \end{thebibliography}
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+
+c:/Users/user/Desktop/Acads/Thesis/1_Code/Manuscript/FinalManuscript.tex:82: LaTeX Error: \begin{spacing} on input line 1 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[49] (FinalManuscript.aux)
+ ***********
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-07-20>
+ ***********
+ )
+(\end occurred inside a group at level 8)
+
+### semi simple group (level 8) entered at line 1 (\begingroup)
+### semi simple group (level 7) entered at line 1 (\begingroup)
+### semi simple group (level 6) entered at line 1 (\begingroup)
+### semi simple group (level 5) entered at line 1 (\begingroup)
+### semi simple group (level 4) entered at line 1 (\begingroup)
+### semi simple group (level 3) entered at line 1 (\begingroup)
+### semi simple group (level 2) entered at line 1 (\begingroup)
+### semi simple group (level 1) entered at line 1 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 7449 strings out of 467501
+ 128368 string characters out of 5409036
+ 536470 words of memory out of 5000000
+ 36541 multiletter control sequences out of 15000+600000
+ 638435 words of font info for 71 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 87i,11n,93p,1402b,529s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on FinalManuscript.pdf (50 pages, 646823 bytes).
+PDF statistics:
+ 252 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        1]
+Overfull \hbox (16.03705pt too wide) in paragraph at lines 51--52
+[]\OT1/pnc/m/n/12 The segment-level sim-i-lar-ity be-tween two graphs will be d
+e-ter-mined through
+ []
+
+
+LaTeX Warning: Citation `AdefemiParallelization' on page 42 undefined on input 
+line 56.
+
+) [42] (FinalManuscript.bbl [43] [44
+
+] [45] [46] [47]
+
+! LaTeX Error: \begin{spacing} on input line 1 ended by \end{thebibliography}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181 \end{thebibliography}
+                           
+? 

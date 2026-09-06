@@ -1,0 +1,4 @@
+PWD C:\Users\user\Desktop\Acads\Thesis\1_Code\Manuscript
+INPUT C:\Users\user\AppData\Local\MiKTeX\miktex\data\le\pdftex\latex.fmt
+INPUT 00_acknowledgements.tex
+OUTPUT 00_acknowledgements.log
