@@ -33,42 +33,43 @@ In addition, the algorithm makes use of an  extension of an algebraic manipulati
 In the paper, the described algorithm makes use of two equally-sized sequences of $n$ points, $A$ and $B$, although the authors note that it can be easily extended to sequences of unequal lengths. Each sequence is decomposed into $s$ subsequences, denoted by $A_1\dots A_s$ where $s$ is equal to $\frac{n}{g-1}$. The subsequences in between $A_1$ and $A_s$ are denoted by $A_i$ (or $B_j$ for subsequences from $B$). Each subsequence consists of $g-1$ elements from the sequence, with the last element from the previous subsequence affixed to the start of the current subsequence, resulting in $g$ elements per subsequence except for the first subsequence.
 
 \includegraphics[width=0.85\linewidth]{Figures/subsets.png}\newline
-Figure 2.1: Subsets Example
+\textit{Figure 2.1: Subsets Example}
 
 For each pair of subsequences in sequences $A$ and $B$, a distance matrix or \textit{box} of size $g \times g$ is calculated, denoted by $D_{i,j}$ with $i$ and $j$ based on the subsequences used from $A$ and $B$. The indices of the matrices start at the bottom-left, where the first row of the matrix is the bottom row and the first column is the leftmost column. For distance matrices calculated using either the first subsequence from $A$ or $B$ or both, a row or column of $\infty$ values is added to the first row or column of the distance matrix instead. Overall, there exist $s^2$ number of boxes.
 
 \includegraphics[width=0.85\linewidth]{Figures/squares.png}\newline
-Figure 2.2: A box made using the subsets $A_{2}$ and $B_{3}$.
+\textit{Figure 2.2: A box made using the subsets $A_{2}$ and $B_{3}$.}
 
 Within each box, a staircase path $P$ is calculated. A staircase path is a sequence of positions in $[g]\times[g]$ that follows a monotone structure starting from any position in the bottom or left boundary and ending at the top or right boundary. Each subsequent position must be immediately above, to the right, or to the above-right of the current position; each staircase path can be denoted as a sequence of steps from $P(0)$ to $P(t^*)$ with each succeeding step being denoted as $P(t+1)$. The value of $t^*$ may range from  $1$ to $2g-2$ . The number of possible monotone staircase paths in a box is bounded by $O(3^{2g})$. The cost of a staircase path is defined as the sum of all $P(t)$, where $t$ ranges from $t_1$ until $t^*$, within a distance matrix.
 
 \includegraphics[width=0.85\linewidth]{Figures/staircasepath.png}\newline
-Figure 2.3: A Sample Staircase Path.
+\textit{Figure 2.3: A Sample Staircase Path.}
 
 Lastly, $L$ is defined as the set of positions in the left and bottom boundaries of a box while $R$ are the top and right boundaries. A staircase path $P_{v,w}$ is defined as a staircase starting at $v$, where $v\in L$, and ending at $w$, where $w\in R$. The shortest path between $v$ and $w$ is denoted by $P^*_{v,w}$, and is defined as the staircase path with the lowest cost among all staircase paths between $v$ and $w$.
 
 \includegraphics[width=0.85\linewidth]{Figures/L_R.png}\newline
-Figure 2.4: A visualization of L and R in a $4\times4$ box .
+\textit{Figure 2.4: A visualization of L and R in a $4\times4$ box.}
 
 \subsubsection{Preprocessing}
 All pairs of positions $(v, w)$ in a box are enumerated and pairs that cannot form a monotone staircase path are discarded; all remaining pairs are \textit{admissible}. This quantity is at most $4g^2$. For every admissible pair, a staircase path $P_{v,w}$ is calculated which can be broken down into row and column functions, denoted by $(P^r_{v,w}, P^c_{v,w})$. The paths are enumerated following a natural lexicographic order, allowing more efficient retrieval of the paths.
 
 \includegraphics[width=0.85\linewidth]{Figures/pathVW.png}\newline
-Figure 2.2: Two Sample Paths $P_{v,w}$ and $P^*_{v,w}$.
+\textit{Figure 2.5: Two Sample Paths $P_{v,w}$ and $P^*_{v,w}$.}
 
-Given two paths, $P_{v,w}$ and $P'_{v,w}$, with the same start and end points, these paths will be compared using the extended Fredman's Trick. The comparison is performed such that one side depends only on points from $A_i$ and the other side on points from only $B_j$. Some path $P_{v,w}$ is chosen as a candidate path for the shortest path; this is repeated for all boxes $D_{i,j}$. This process will have less than $(3^{2g})^{4g^2}$ or $3^{8g^3}$ possible paths.
+Given two paths, $P_{v,w}$ and $P'_{v,w}$, with the same start and end points, these paths will be compared using Chan's Algorithm. The comparison is performed such that one side depends only on points from $A_i$ and the other side on points from only $B_j$. Some path $P_{v,w}$ is chosen as a candidate path for the shortest path; this is repeated for all boxes $D_{i,j}$. This process will have less than $(3^{2g})^{4g^2}$ or $3^{8g^3}$ possible paths.
+
+In this comparison, signs for each term have been assumed. However, verification of the signs of each term is required for correctness. For each box $D_{i,j}$, a unique sign assignment $\sigma^*$ is defined where it is either $1$ or $-1$. In order to test for the value of $\sigma^*$, it is factored in the comparison in Fredman's Trick. This increases the dimension of the space by $g^2$ due to the signs, and increases choices by $2^{g^2}$.
 
 In the following section for testing a fixed choice of shortest paths, a blue point $\alpha_i$ is created for each subsequence $A_i$ and a red point $\beta_j$ is created for each subsequence $B_j$. The value of $\alpha_i$ is equal to the expression used in Fredman's trick of points taken only from $A_i$, which holds similarly for $\beta_j$ and $B_j$. A blue point will be dominated by a red point if the chosen path is the shortest path in $D_{i,j}$ for $v,w$. There are $2s=\Theta(n/g)$ number of points; the time complexity to compute the points is $O(2s\cdot3^{2g}\cdot g) = O(3^{2g}n)$.
 
-Using Chan's algorithm \cite{ChanDominance}, all pairs of points where $\alpha_i$ is dominated by $\beta_j$ can be reported in $O({c^{O(3^{2g})}_\epsilon}{(n/g)^{1+\epsilon}} +K)$, where K is the number of boxes where the specific paths are positive \cite{ChanDominance}. $\epsilon$ is chosen to be $1/2$ and $c_\epsilon$ is defined as roughly $3.42$. This process will be repeated at most $3^{8g^3}$ times. Afterwards, $s^2 =\Theta((n/g)^2)$ number of dominating pairs will be reported. This leads to an overall runtime of $O(3^{8g^3}({3^{2g}n}+{c^{O(3^{2g})}_\epsilon}{(n/g)^{1+\epsilon}}) + {(n/g)^2})$.
-
-In the use of Fredman's Trick, the signs for each term have been assumed. However, verification of the signs of each term is required for correctness. For each box $D_{i,j}$, a unique sign assignment $\sigma^*$ is defined where it is either $1$ or $-1$. In order to test for the value of $\sigma^*$, it is factored in the comparison in Fredman's Trick. This increases the dimension of the space by $g^2$ due to the signs, and increases choices by $2^{g^2}$. This leads to a runtime of $O(3^{8g^3+g^2}({3^{2g}n}+{c^{O(3^{2g})+g^2}_\epsilon}{(n/g)^{1+\epsilon}}) + {(n/g)^2})$.
+Using Chan's algorithm \cite{ChanDominance}, all pairs of points where $\alpha_i$ is dominated by $\beta_j$ can be reported in $O({c^{O(3^{2g})}_\epsilon}{(n/g)^{1+\epsilon}} +K)$, where K is the number of boxes where the specific paths are positive \cite{ChanDominance}. $\epsilon$ is chosen to be $1/2$ and $c_\epsilon$ is defined as roughly $3.42$. This process will be repeated at most $3^{8g^3}$ times. Afterwards, $s^2 =\Theta((n/g)^2)$ number of dominating pairs will be reported. This leads to an overall runtime of $O(3^{8g^3}({3^{2g}n}+{c^{O(3^{2g})}_\epsilon}{(n/g)^{1+\epsilon}}) + {(n/g)^2})$. Adding the step of sign verification, the total time complexity becomes $O(3^{8g^3+g^2}({3^{2g}n}+{c^{O(3^{2g})+g^2}_\epsilon}{(n/g)^{1+\epsilon}}) + {(n/g)^2})$.
 
 By setting $\epsilon=1/2$ and $g=\delta \log\log n$, where $\delta$ is a sufficiently small constant, many terms become negligible. This results in the upper bound time complexity as $O((n/g)^2) = O(n^2/(\log\log n)^2)$.
 
-Afterwards, we compute the costs of each path. This can be done by calculating the cost in terms of rows and columns for $A_i$ and $B_j$ respectively. Although the cost can be calculated directly using these, storing the rows and columns costs allows for storing the positions of the path in addition to being able to quickly calculate the cost of the path.
+Afterwards, the costs of each path is computed. This can be done by calculating the cost in terms of rows and columns for $A_i$ and $B_j$ respectively. Although the cost can be calculated directly using these, storing the rows and columns costs allows for storing the positions of the path in addition to being able to quickly calculate the cost of the path.
 
 The final result of this stage is an algorithm that runs in $O((n/g)^2) = O(n^2/(\log\log n)^2)$ time that allows the retrieval of the shortest path and the computation of its cost in $O(1)$ time for any box $D_{i,j}$ and an admissible pair $v,w$.
+
 \subsubsection{Compact Dynamic Programming}
 The $(n+1) \times (n+1)$ matrix $M$ will be decomposed into $s^2$ boxes, denoted by $M_{i,j}$. Each box will be of size $g \times g$ and occupies the same positions as box $D_{i,j}$ from the preprocessing stage. For each box $M_{i,j}$, the left boundary of the box overlaps with the right boundary of the box to the left $M_{i,j-1}$, and the bottom boundary of the box overlaps with the top boundary of the box to the bottom $M_{i-1,j}$.
 
@@ -125,7 +126,7 @@ The rest of the algorithm proceeds as described above. The value of $\epsilon$ e
 There are other distance metrics that can be used other than DTW distance. The Euclidean distance, as well as elastic distance measures similar to DTW, will be surveyed in this section.
 
 \subsection{Euclidean Distance and the Frobenius Norm}
-The most widely known and general distance metric is the Euclidean distance. For $m\times n$ matrices $A, B$ (which we can construct by taking each vector in a time series as a row vector of the matrix), we can compute the norm of the difference between the matrices using the Frobenius norm, which is a generalization of the Euclidean distance for vector spaces of matrices. This can be formulated as
+The most widely known and general distance metric is the Euclidean distance. For $m\times n$ matrices $A, B$ (which can be constructed by taking each vector in a time series as a row vector of the matrix), the norm of the difference between the matrices using the Frobenius norm is computed, which is a generalization of the Euclidean distance for vector spaces of matrices. This can be formulated as
 \[
     \Vert A-B \Vert = \sqrt{\sum_{i=1}^m \sum_{j=1}^n (a_{ij}-b_{ij})^2}.
 \]

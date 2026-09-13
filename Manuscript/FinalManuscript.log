@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.14)  6 SEP 2026 19:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.14)  13 SEP 2026 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -516,27 +516,27 @@ File: Figures/pathVW.png Graphic file (type png)
 Package pdftex.def Info: Figures/pathVW.png  used on input line 56.
 (pdftex.def)             Requested size: 374.86774pt x 197.13324pt.
  [16 <./Figures/pathVW.png>] [17] [18] [19] [20]
-Overfull \hbox (1.81421pt too wide) in paragraph at lines 85--86
+Overfull \hbox (1.81421pt too wide) in paragraph at lines 86--87
 []\OT1/pnc/m/n/12 An up-per bound of this divide-and-conquer pro-ce-dure is given by $\OML/cmm/m/it/12 O\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 g [] g\OT1/cmr/m/n/12 )$\OT1/pnc/m/n/12 .
  []
 
 
-Overfull \hbox (8.57011pt too wide) in paragraph at lines 100--101
+Overfull \hbox (8.57011pt too wide) in paragraph at lines 101--102
 \OT1/pnc/m/n/12 im-prove upon the time com-plex-ity of the al-go-rithm. By im-ple-ment-ing the SMAWK
  []
 
 [21] [22] [23] [24] [25] [26] [27]
-Overfull \hbox (3.37367pt too wide) in paragraph at lines 152--153
+Overfull \hbox (3.37367pt too wide) in paragraph at lines 153--154
 \OT1/pnc/m/n/12 ac-tion into smaller parts and then hav-ing the dif-fer-ent pro-ces-sors run the smaller
  []
 
 [28]
-Overfull \hbox (0.60265pt too wide) in paragraph at lines 155--155
+Overfull \hbox (0.60265pt too wide) in paragraph at lines 156--156
 []\OT1/pnc/b/n/12 Performance Met-rics for Implication-Realization Temporal-Gestalt
  []
 
 [29] [30] [31] [32]
-Overfull \hbox (6.97935pt too wide) in paragraph at lines 183--184
+Overfull \hbox (6.97935pt too wide) in paragraph at lines 184--185
 []\OT1/pnc/m/n/12 Afterwards, Mul-ti-di-men-sional Scal-ing is used in or-der to com-pare segment-
  []
 
@@ -566,19 +566,24 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 19--21
 [][]
  []
 
-[38 <./Base Graph Construction.png> <./Plain NoNormalization Graph Construction.png>] [39] [40] [41]
-Overfull \hbox (16.03705pt too wide) in paragraph at lines 51--52
+[38 <./Base Graph Construction.png> <./Plain NoNormalization Graph Construction.png>] [39]
+Overfull \hbox (0.2689pt too wide) in paragraph at lines 39--40
+[]\OT1/pnc/m/n/12 Module 2: Cal-cu-lat-ing the Boxes con-tains the lat-ter half of Stage 0: Prepa-
+ []
+
+[40] [41] [42] [43]
+Overfull \hbox (16.03705pt too wide) in paragraph at lines 73--74
 []\OT1/pnc/m/n/12 The segment-level sim-i-lar-ity be-tween two graphs will be de-ter-mined through
  []
 
-) [42] (FinalManuscript.bbl [43] [44
+[44]) (FinalManuscript.bbl [45] [46
 
-] [45] [46] [47]
+] [47] [48] [49]
 Underfull \hbox (badness 1033) in paragraph at lines 151--155
 []\OT1/pnc/m/n/12 Nino Sher-vashidze, Pas-cal Schweitzer, Erik Jan van Leeuwen, Kurt
  []
 
-[48]) [49] (FinalManuscript.aux)
+[50]) [51] (FinalManuscript.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -593,9 +598,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  87i,10n,93p,1402b,233s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on FinalManuscript.pdf (50 pages, 646191 bytes).
+Output written on FinalManuscript.pdf (52 pages, 649659 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
+ 258 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -24,6 +24,28 @@ The DTW-distance computations are performed using an extension of the sub-quadra
 
 The SMAWK algorithm will not be implemented in this paper in order to focus on the base algorithm described by Gold and Sharir in their paper. Nevertheless, $O(n^2 log\ log\ log\ n\ / log\ log\ n)$ will still be an improvement to the existing $O(n^2)$ runtime of DTW.
 
+In the actual implementation of the algorithm, it has been divided into six modules for the sake of better modularity and improved tracing of the algorithm. The modules and titles are as follows:
+\begin{enumerate}
+    \item Segmenting the Input Sequences
+    \item Calculating the Boxes
+    \item Determining the Paths
+    \item Choosing Shortest Paths
+    \item Identifying the Optimal Path
+    \item Tracing the Complete Path
+\end{enumerate}
+
+Module 1: Segmenting the Input Sequences contains half of the Stage 0: Preparations from Gold and Sharir's original paper \cite{OmerGold}. The module takes the two input sequences and segments them into subsqeuences that overlap. Afterwards, a distance matrix or \textit{box} is calculated using every pair of subsequences from A and B. The expected input of this module is two sequences and the expected output are distance matrices for every pair of subsequences.
+
+Module 2: Calculating the Boxes contains the latter half of Stage 0: Preparations. Firstly, given the subsequence size used, the module calculates the positions of $L$ and $R$ in the sub-quadratic DTW. Afterwards, it tests every pair of positions between $L$ and $R$ in order to find the \textit{admissible pairs}. The expected input is a box and the expected output are the admissible pairs of positions. The positions of $L$ and $R$ are also stored.
+
+Module 3: Determining the Shortest Paths begins Stage 1: Preprocessing of the sub-quadratic DTW algorithm \cite{OmerGold}. Given the positions of $L$ and $R$ from Module 2, all possible positions of paths are enumerated. Afterwards, sign assignment is performed on the terms to prepare them for Chan's algorithm in Module 4. The expected input of Module 3 are the pairs of positions and the expected output are the possible paths per pair.
+
+Module 4: Choosing the Shortest Paths is an implementation of Chan's Bichromatic Dominance Reporting Algorithm as used by Gold and Sharir \cite{OmerGold}. Using Chan's Algorithm, the shortest path amongst the possible paths is identified and reported per box. The expected input is are the paths and the expected output is a single shortest path chosen.
+
+Module 5: Identifying the Optimal Path is the first half of Stage 2: Compact Dynamic Programming in the sub-quadratic DTW algorithm \cite{OmerGold}. This Module attempts to identify what value of L and R will produce the shortest path amongst all pairs of positions, leading to a single definitive shortest path per box.
+
+Module 6: Tracing the Complete Path is the last stage of the algorithm as the shortest paths from each box are connected using the overlapping subsequences. This leads to a final connected path for the input sequences.
+
 \subsubsection{Sequences of Different Lengths}
 Extending the algorithm to work with sequences of unequal lengths will not significantly change the implementation of the algorithm. Let $A$ and $B$ be two sequences of unequal lengths.
 
