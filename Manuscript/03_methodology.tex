@@ -34,20 +34,20 @@ In the actual implementation of the algorithm, it has been divided into six modu
     \item Tracing the Complete Path
 \end{enumerate}
 
-Before discussing Gold and Sharir's algorithm, we describe below Chan's divide-and-conquer algorithm for the bichromatic dominating pairs problem \cite{ChanDominance}. This algorithm, which we denote $\text{dom}(R,B,d')$ returns all pairs of points in $\mathbb{R}^d$, one point $\vec{r}=(r_1,r_2,\dotsc,r_d)$ from a set $R$ and one point $\vec{b}=(b_1,b_2,\dotsc,b_d)$ from a set $B$, such that for all $i\in\{1,2,\dotsc,d\}, r_i\le b_i$, in $O(c_\epsilon^dn^{1+\epsilon}+K)$ time.
+Presented below is Chan's divide-and-conquer algorithm for the bichromatic dominating pairs problem, a prerequisite for Gold and Sharir's algorithm. \cite{ChanDominance}. This algorithm, denoted $\text{dom}(R,B,d')$ returns all pairs of points in $\mathbb{R}^d$, one point $\vec{r}=(r_1,r_2,\dotsc,r_d)$ from a set $R$ and one point $\vec{b}=(b_1,b_2,\dotsc,b_d)$ from a set $B$, such that for all $i\in\{1,2,\dotsc,d\}, r_i\le b_i$, in $O(c_\epsilon^dn^{1+\epsilon}+K)$ time.
 
 Let $L=R\cup B$, $n=|L|$. Let $d'\le d$. ($d'$ serves as a ``pointer'' to which dimension is being looked at for each recursive call.) There are two base cases.
-First, if $n=1$, then no pair of points can be formed, and thus we return $\text{dom}(L,R,d')=\{\}$. Second, if $d'=0$, then we return all pairs of points, i.e., $\text{dom}(L,R,0)=R\times B$.
+First, if $n=1$, then no pair of points can be formed, and thus $\text{dom}(L,R,d')=\{\}$ is returned. Second, if $d'=0$, then all pairs of points are returned, i.e., $\text{dom}(L,R,0)=R\times B$.
 
-If $n>1$ and $d'>0$, then we proceed with the recursive case. Let $m$ be the median of the $d'$-th coordinates of all points in $L$. We form the sets
+The recursive case is done when $n>1$ and $d'>0$. Let $m$ be the median of the $d'$-th coordinates of all points in $L$. The following sets are formed:
 \begin{align*}
     R_{l} = \{\vec{r}=(r_1,r_2,\dotsc,r_d)\mid\vec{r} \in R, r_{d'}\le m\} \\
     R_{r} = \{\vec{r}=(r_1,r_2,\dotsc,r_d)\mid\vec{r} \in R, r_{d'}> m\}   \\
     B_{l} = \{\vec{b}=(b_1,b_2,\dotsc,b_d)\mid\vec{b} \in B, b_{d'}\le m\} \\
     B_{r} = \{\vec{b}=(b_1,b_2,\dotsc,b_d)\mid\vec{b} \in B, b_{d'}> m\}
 \end{align*}
-We then perform recursive calls on $(R_l,B_l,d')$, $(R_r,B_r,d')$, and $(R_l,B_r,d'-1)$. (Note that for any $\vec{r}\in R_l$ and $\vec{b}\in B_r$, $r_{d'}<b_{d'}$. Thus, our condition is satisfied for dimension $d'$, and so we call dom on $d'-1$.)
-To combine the solutions, we return
+Recursive calls are then made on $(R_l,B_l,d')$, $(R_r,B_r,d')$, and $(R_l,B_r,d'-1)$. (Note that for any $\vec{r}\in R_l$ and $\vec{b}\in B_r$, $r_{d'}<b_{d'}$. Thus, the condition is satisfied for dimension $d'$, and so dom is called on $d'-1$.)
+For the combine step, the following is returned:
 
 $\text{dom}(R,B,d')=\text{dom}(R_l,B_l,d')\cup \text{dom}(R_r,B_r,d') \cup \text{dom}(R_l,B_r,d'-1).$
 
