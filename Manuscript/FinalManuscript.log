@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.7.13)  19 SEP 2026 17:02
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.6)  19 SEP 2026 22:03
->>>>>>> seth-chan-algo
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.7.13)  21 SEP 2026 14:35
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-<<<<<<< HEAD
 **c:/Users/dad3z/Downloads/thesis_dtw/Manuscript/FinalManuscript.tex
 (c:/Users/dad3z/Downloads/thesis_dtw/Manuscript/FinalManuscript.tex
 LaTeX2e <2026-06-01>
@@ -28,81 +24,53 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen151
 ) (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
-=======
-**FinalManuscript.tex
-(./FinalManuscript.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
-(./discsthesis.cls
-Document Class: discsthesis 2005/05/11 v3.0 Ateneo de Manila University DISCS T
-hesis Class
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip48
-
-For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen140
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen141
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
->>>>>>> seth-chan-algo
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count187
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count188
-\leftroot@=\count189
-LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count190
-\DOTSCASE@=\count191
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen142
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count192
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count193
-\dotsspace@=\muskip16
-\c@parentequation=\count194
-\dspbrk@lvl=\count195
+\inf@bad=\count276
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count277
+\leftroot@=\count278
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count279
+\DOTSCASE@=\count280
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen152
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count281
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count282
+\dotsspace@=\muskip17
+\c@parentequation=\count283
+\dspbrk@lvl=\count284
 \tag@help=\toks18
-\row@=\count196
-\column@=\count197
-\maxfields@=\count198
+\row@=\count285
+\column@=\count286
+\maxfields@=\count287
 \andhelp@=\toks19
-\eqnshift@=\dimen143
-\alignsep@=\dimen144
-\tagshift@=\dimen145
-\tagwidth@=\dimen146
-\totwidth@=\dimen147
-\lineht@=\dimen148
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
 \@envbody=\toks20
-\multlinegap=\skip49
-\multlinetaggap=\skip50
+\multlinegap=\skip50
+\multlinetaggap=\skip51
 \mathdisplay@stack=\toks21
-<<<<<<< HEAD
 LaTeX Info: Redefining \[ on input line 2965.
 LaTeX Info: Redefining \] on input line 2966.
 ) (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\newcent.sty
@@ -124,63 +92,21 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 106.
  (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
-=======
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/newcent.sty
-Package: newcent 2020/03/25 PSNFSS-v9.3 (SPQR) 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
-Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
->>>>>>> seth-chan-algo
 ))
-\Gin@req@height=\dimen149
-\Gin@req@width=\dimen150
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
 )
-<<<<<<< HEAD
 \epsfxsize=\dimen161
 \epsfysize=\dimen162
 ) (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
-=======
-\epsfxsize=\dimen151
-\epsfysize=\dimen152
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
->>>>>>> seth-chan-algo
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-<<<<<<< HEAD
 )) (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
 \calc@Acount=\count288
@@ -217,48 +143,6 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \mult@grightbox=\box60
 \mult@firstbox=\box61
 \mult@gfirstbox=\box62
-=======
-))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count199
-\calc@Bcount=\count266
-\calc@Adimen=\dimen153
-\calc@Bdimen=\dimen154
-\calc@Askip=\skip51
-\calc@Bskip=\skip52
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count267
-\calc@Cskip=\skip53
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count268
-\mult@box=\box53
-\multicol@leftmargin=\dimen155
-\c@unbalance=\count269
-\c@collectmore=\count270
-\doublecol@number=\count271
-\multicoltolerance=\count272
-\multicolpretolerance=\count273
-\full@width=\dimen156
-\page@free=\dimen157
-\premulticols=\dimen158
-\postmulticols=\dimen159
-\multicolsep=\skip54
-\multicolbaselineskip=\skip55
-\partial@page=\box54
-\last@line=\box55
-\mc@boxedresult=\box56
-\maxbalancingoverflow=\dimen160
-\mult@rightbox=\box57
-\mult@grightbox=\box58
-\mult@firstbox=\box59
-\mult@gfirstbox=\box60
-\@tempa=\box61
-\@tempa=\box62
->>>>>>> seth-chan-algo
 \@tempa=\box63
 \@tempa=\box64
 \@tempa=\box65
@@ -293,7 +177,6 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box94
 \@tempa=\box95
 \@tempa=\box96
-<<<<<<< HEAD
 \@tempa=\box97
 \@tempa=\box98
 \c@minrows=\count297
@@ -337,91 +220,29 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \@enLab=\toks25
 ) (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
-=======
-\c@minrows=\count274
-\c@columnbadness=\count275
-\c@finalcolumnbadness=\count276
-\last@try=\dimen161
-\multicolovershoot=\dimen162
-\multicolundershoot=\dimen163
-\mult@nat@firstbox=\box97
-\colbreak@box=\box98
-\mc@col@check@num=\count277
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen164
-\ar@mcellbox=\box99
-\extrarowheight=\dimen165
-\NC@list=\toks23
-\extratabsurround=\skip56
-\backup@length=\skip57
-\ar@cellbox=\box100
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen166
-\TX@old@table=\dimen167
-\TX@old@col=\dimen168
-\TX@target=\dimen169
-\TX@delta=\dimen170
-\TX@cols=\count278
-\TX@ftn=\toks24
-)
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
-Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
-LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
-File: upzd.fd 2001/06/04 font definitions for U/pzd.
-)
-LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
-File: upsy.fd 2001/06/04 font definitions for U/psy.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
-\@enLab=\toks25
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
->>>>>>> seth-chan-algo
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
-<<<<<<< HEAD
 ) (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 ) (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
-=======
->>>>>>> seth-chan-algo
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
-)
-\c@part=\count279
-\c@chapter=\count280
-\c@section=\count281
-\c@subsection=\count282
-\c@subsubsection=\count283
-\c@paragraph=\count284
-\c@subparagraph=\count285
-\c@figure=\count286
-\c@table=\count287
-\abovecaptionskip=\skip58
-\belowcaptionskip=\skip59
-\bibindent=\dimen171
+\c@part=\count303
+\c@chapter=\count304
+\c@section=\count305
+\c@subsection=\count306
+\c@subsubsection=\count307
+\c@paragraph=\count308
+\c@subparagraph=\count309
+\c@figure=\count310
+\c@table=\count311
+\abovecaptionskip=\skip59
+\belowcaptionskip=\skip60
+\bibindent=\dimen181
 )
 *************************************************************
 ** ADMU DISCS Thesis Class File, version 3.1, 10 Oct 2005
@@ -432,7 +253,6 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 ** With modifications by Andrei Coronel, Reena Estuar, 
 ** JP Vergara and Eric Vidal 
 *************************************************************
-<<<<<<< HEAD
 \bibindent=\dimen182
 \hour=\count312
 \minute=\count313
@@ -451,33 +271,11 @@ Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 ) (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
 Package: fancyvrb 2026/04/16 4.6a verbatim text (tvz,hv)
 \FV@CodeLineNo=\count321
-=======
-\bibindent=\dimen172
-\hour=\count288
-\minute=\count289
-\dow=\count290
-\leap=\count291
-\x=\count292
-\y=\count293
-\c@tbl=\count294
-\c@fig=\count295
-) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip60
-\multirow@cntb=\count296
-\multirow@dima=\skip61
-\bigstrutjot=\dimen173
-)
-(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count297
->>>>>>> seth-chan-algo
 \FV@InFile=\read2
-\FV@TabBox=\box101
-\c@FancyVerbLine=\count298
-\FV@StepNumber=\count299
+\FV@TabBox=\box103
+\c@FancyVerbLine=\count322
+\FV@StepNumber=\count323
 \FV@OutFile=\write3
-<<<<<<< HEAD
 ) (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \c@@pps=\count324
@@ -488,50 +286,30 @@ Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
-=======
-)
-(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
-Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count300
-\c@@ppsavesec=\count301
-\c@@ppsaveapp=\count302
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
->>>>>>> seth-chan-algo
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen174
-\captionmargin=\dimen175
-\caption@leftmargin=\dimen176
-\caption@rightmargin=\dimen177
-\caption@width=\dimen178
-\caption@indent=\dimen179
-\caption@parindent=\dimen180
-\caption@hangindent=\dimen181
+\caption@tempdima=\dimen184
+\captionmargin=\dimen185
+\caption@leftmargin=\dimen186
+\caption@rightmargin=\dimen187
+\caption@width=\dimen188
+\caption@indent=\dimen189
+\caption@parindent=\dimen190
+\caption@hangindent=\dimen191
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
-Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
-p \sbox \@tempboxa {#1. #2}\ifdim \wd \@tempboxa >\hsize #1. #2\par \else \glob
-al \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \bel
-owcaptionskip  on input line 1175.
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionskip \sbox \@tempboxa {#1. #2}\ifdim \wd \@tempboxa >\hsize #1. #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \belowcaptionskip  on input line 1175.
 )
 
 Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count303
-\c@continuedfloat=\count304
+\c@caption@flags=\count327
+\c@continuedfloat=\count328
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count305
+\c@subfigure=\count329
 Package caption Info: New subtype `subtable' on input line 238.
-<<<<<<< HEAD
 \c@subtable=\count330
 ) (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
@@ -540,26 +318,11 @@ Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
  (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-=======
-\c@subtable=\count306
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
-Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
-
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
->>>>>>> seth-chan-algo
 \XKV@toks=\toks26
 \XKV@tempa@toks=\toks27
 )
-\XKV@depth=\count307
+\XKV@depth=\count331
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-<<<<<<< HEAD
 )) (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
 ) (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
@@ -619,91 +382,20 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
  (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
-=======
-))
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
--ends (calc, etex, pgfmath)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
-Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
-
-(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
-Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box102
-)
-\tc@llx=\dimen182
-\tc@lly=\dimen183
-\tc@urx=\dimen184
-\tc@ury=\dimen185
-Package trimclip Info: Using driver 'tc-pdftex.def'.
-
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
-File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
-))
-\adjbox@Width=\dimen186
-\adjbox@Height=\dimen187
-\adjbox@Depth=\dimen188
-\adjbox@Totalheight=\dimen189
-\adjbox@pwidth=\dimen190
-\adjbox@pheight=\dimen191
-\adjbox@pdepth=\dimen192
-\adjbox@ptotalheight=\dimen193
-
-(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count308
-)
-(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box103
-\sift@deathcycles=\count309
-\@vwid@loff=\dimen194
-\@vwid@roff=\dimen195
-))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
-\LTleft=\skip62
-\LTright=\skip63
-\LTpre=\skip64
-\LTpost=\skip65
-\LTchunksize=\count310
-\LTcapwidth=\dimen196
-\LT@head=\box104
-\LT@firsthead=\box105
-\LT@foot=\box106
-\LT@lastfoot=\box107
-\LT@gbox=\box108
-\LT@cols=\count311
-\LT@rows=\count312
-\c@LT@tables=\count313
-\c@LT@chunks=\count314
-\LT@p@ftn=\toks28
-)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
-
-(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
->>>>>>> seth-chan-algo
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count315
-\l_MT_multwidth_dim=\dimen197
-\origjot=\skip66
-\l_MT_shortvdotswithinadjustabove_dim=\dimen198
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen199
-\l_MT_above_intertext_sep=\dimen256
-\l_MT_below_intertext_sep=\dimen257
-\l_MT_above_shortintertext_sep=\dimen258
-\l_MT_below_shortintertext_sep=\dimen259
-\xmathstrut@box=\box109
-\xmathstrut@dim=\dimen260
+\g_MT_multlinerow_int=\count339
+\l_MT_multwidth_dim=\dimen263
+\origjot=\skip67
+\l_MT_shortvdotswithinadjustabove_dim=\dimen264
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen265
+\l_MT_above_intertext_sep=\dimen266
+\l_MT_below_intertext_sep=\dimen267
+\l_MT_above_shortintertext_sep=\dimen268
+\l_MT_below_shortintertext_sep=\dimen269
+\xmathstrut@box=\box111
+\xmathstrut@dim=\dimen270
 )
-<<<<<<< HEAD
 LaTeX Font Info:    Trying to load font information for OT1+pnc on input line 21.
  (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pnc.fd
 File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
@@ -711,20 +403,6 @@ File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count340
 ) (FinalManuscript.aux)
-=======
-LaTeX Font Info:    Trying to load font information for OT1+pnc on input line 2
-1.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pnc.fd
-File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count316
-\l__pdf_internal_box=\box110
-)
-(./FinalManuscript.aux)
->>>>>>> seth-chan-algo
 \openout1 = `FinalManuscript.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -741,25 +419,19 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
-<<<<<<< HEAD
  (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-=======
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
->>>>>>> seth-chan-algo
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
-\scratchdimen=\dimen261
-\scratchbox=\box111
-\nofMPsegments=\count318
-\nofMParguments=\count319
+\scratchcounter=\count341
+\scratchdimen=\dimen271
+\scratchbox=\box112
+\nofMPsegments=\count342
+\nofMParguments=\count343
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count320
-\MPscratchDim=\dimen262
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
+\MPscratchCnt=\count344
+\MPscratchDim=\dimen272
+\MPnumerator=\count345
+\makeMPintoPDFobject=\count346
 \everyMPtoPDFconversion=\toks30
-<<<<<<< HEAD
 ) (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -769,44 +441,22 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
  (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
-=======
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: longtable package is loaded.
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
->>>>>>> seth-chan-algo
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
  [1
 
-<<<<<<< HEAD
 {C:/Users/dad3z/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/dad3z/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (01_introduction_00.tex
-=======
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/base/8r.enc}] (./01_introduction_00.tex
->>>>>>> seth-chan-algo
 Chapter 1.
 
 Overfull \hbox (12.89366pt too wide) in paragraph at lines 5--6
-[]\OT1/pnc/m/n/12 Representing mu-sic through a graph-based rep-re-sen-ta-tion 
-is a novel method
+[]\OT1/pnc/m/n/12 Representing mu-sic through a graph-based rep-re-sen-ta-tion is a novel method
  []
 
 [1
 
-] (./01_introduction_01contextofstudy.tex [2]
+] (01_introduction_01contextofstudy.tex [2]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
-<<<<<<< HEAD
  (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -816,111 +466,83 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 8.
  (C:\Users\dad3z\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
-=======
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 8.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
->>>>>>> seth-chan-algo
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [3]
 Overfull \hbox (24.20671pt too wide) in paragraph at lines 10--11
-\OT1/pnc/m/n/12 that is an-a-lyzed for its struc-ture and sim-i-lar-ity, fol-lo
-w-ing the Implication-Realization
+\OT1/pnc/m/n/12 that is an-a-lyzed for its struc-ture and sim-i-lar-ity, fol-low-ing the Implication-Realization
  []
 
 [4] [5]
 Overfull \hbox (3.29343pt too wide) in paragraph at lines 20--21
-[]\OT1/pnc/m/n/12 Parallelization has been an-other method of im-prov-ing the r
-un-time of DTW.
+[]\OT1/pnc/m/n/12 Parallelization has been an-other method of im-prov-ing the run-time of DTW.
  []
 
-) (./01_introduction_02researchquestions.tex
+) (01_introduction_02researchquestions.tex
 Overfull \hbox (1.78871pt too wide) in paragraph at lines 3--5
-\OT1/pnc/m/n/12 through im-ple-men-ta-tions of DTW us-ing de-ter-min-is-tic al-
-go-rithm and par-al-lelized
+\OT1/pnc/m/n/12 through im-ple-men-ta-tions of DTW us-ing de-ter-min-is-tic al-go-rithm and par-al-lelized
  []
 
-[6]) (./01_introduction_03objectives.tex [7])
-(./01_introduction_05scopeandlimitations.tex)
-(./01_introduction_04significanceofstudy.tex [8])) (./02_relatedliterature.tex
-[9]
+[6]) (01_introduction_03objectives.tex [7]) (01_introduction_05scopeandlimitations.tex) (01_introduction_04significanceofstudy.tex [8])) (02_relatedliterature.tex [9]
 Chapter 2.
 [10
 
 ] [11] [12]
-<Figures/subsets.png, id=53, 853.68938pt x 125.71968pt>
+<Figures/subsets.png, id=52, 853.68938pt x 125.71968pt>
 File: Figures/subsets.png Graphic file (type png)
 <use Figures/subsets.png>
 Package pdftex.def Info: Figures/subsets.png  used on input line 35.
 (pdftex.def)             Requested size: 374.86774pt x 55.20555pt.
-<Figures/squares.png, id=55, 1355.8153pt x 550.30594pt>
+<Figures/squares.png, id=54, 1355.8153pt x 550.30594pt>
 File: Figures/squares.png Graphic file (type png)
 <use Figures/squares.png>
 Package pdftex.def Info: Figures/squares.png  used on input line 40.
 (pdftex.def)             Requested size: 374.86774pt x 152.1533pt.
  [13 <./Figures/subsets.png>]
-<Figures/staircasepath.png, id=61, 1093.08376pt x 484.81125pt>
+<Figures/staircasepath.png, id=60, 1093.08376pt x 484.81125pt>
 File: Figures/staircasepath.png Graphic file (type png)
 <use Figures/staircasepath.png>
 Package pdftex.def Info: Figures/staircasepath.png  used on input line 45.
 (pdftex.def)             Requested size: 374.86774pt x 166.26138pt.
  [14 <./Figures/squares.png>]
-<Figures/L_R.png, id=66, 1135.99406pt x 546.54187pt>
+<Figures/L_R.png, id=65, 1135.99406pt x 546.54187pt>
 File: Figures/L_R.png Graphic file (type png)
 <use Figures/L_R.png>
 Package pdftex.def Info: Figures/L_R.png  used on input line 50.
 (pdftex.def)             Requested size: 374.86774pt x 180.35103pt.
-
-[15 <./Figures/staircasepath.png> <./Figures/L_R.png>]
-<Figures/pathVW.png, id=72, 1322.69156pt x 695.59875pt>
+ [15 <./Figures/staircasepath.png> <./Figures/L_R.png>]
+<Figures/pathVW.png, id=71, 1322.69156pt x 695.59875pt>
 File: Figures/pathVW.png Graphic file (type png)
 <use Figures/pathVW.png>
 Package pdftex.def Info: Figures/pathVW.png  used on input line 56.
 (pdftex.def)             Requested size: 374.86774pt x 197.13324pt.
  [16 <./Figures/pathVW.png>] [17] [18] [19] [20]
 Overfull \hbox (1.81421pt too wide) in paragraph at lines 86--87
-[]\OT1/pnc/m/n/12 An up-per bound of this divide-and-conquer pro-ce-dure is giv
-en by $\OML/cmm/m/it/12 O\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 g [] g\OT1/cmr/m/n/1
-2 )$\OT1/pnc/m/n/12 .
+[]\OT1/pnc/m/n/12 An up-per bound of this divide-and-conquer pro-ce-dure is given by $\OML/cmm/m/it/12 O\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 g [] g\OT1/cmr/m/n/12 )$\OT1/pnc/m/n/12 .
  []
 
 
 Overfull \hbox (8.57011pt too wide) in paragraph at lines 101--102
-\OT1/pnc/m/n/12 im-prove upon the time com-plex-ity of the al-go-rithm. By im-p
-le-ment-ing the SMAWK
+\OT1/pnc/m/n/12 im-prove upon the time com-plex-ity of the al-go-rithm. By im-ple-ment-ing the SMAWK
  []
 
 [21] [22] [23] [24] [25] [26] [27]
 Overfull \hbox (3.37367pt too wide) in paragraph at lines 153--154
-\OT1/pnc/m/n/12 ac-tion into smaller parts and then hav-ing the dif-fer-ent pro
--ces-sors run the smaller
+\OT1/pnc/m/n/12 ac-tion into smaller parts and then hav-ing the dif-fer-ent pro-ces-sors run the smaller
  []
 
 [28]
 Overfull \hbox (0.60265pt too wide) in paragraph at lines 156--156
-[]\OT1/pnc/b/n/12 Performance Met-rics for Implication-Realization Temporal-Ges
-talt
+[]\OT1/pnc/b/n/12 Performance Met-rics for Implication-Realization Temporal-Gestalt
  []
 
 [29] [30] [31] [32]
 Overfull \hbox (6.97935pt too wide) in paragraph at lines 184--185
-[]\OT1/pnc/m/n/12 Afterwards, Mul-ti-di-men-sional Scal-ing is used in or-der t
-o com-pare segment-
+[]\OT1/pnc/m/n/12 Afterwards, Mul-ti-di-men-sional Scal-ing is used in or-der to com-pare segment-
  []
 
-[33] [34]) (./03_methodology.tex [35]
+[33] [34]) (03_methodology.tex [35]
 Chapter 3.
-<Plain_Methodology.png, id=141, 1907.125pt x 1297.84875pt>
+<Plain_Methodology.png, id=140, 1907.125pt x 1297.84875pt>
 File: Plain_Methodology.png Graphic file (type png)
 <use Plain_Methodology.png>
 Package pdftex.def Info: Plain_Methodology.png  used on input line 3.
@@ -928,52 +550,47 @@ Package pdftex.def Info: Plain_Methodology.png  used on input line 3.
 [36
 
  <./Plain_Methodology.png>]
-<Base Graph Construction.png, id=147, 1505.625pt x 501.875pt>
+<Base Graph Construction.png, id=146, 1505.625pt x 501.875pt>
 File: Base Graph Construction.png Graphic file (type png)
 <use Base Graph Construction.png>
 Package pdftex.def Info: Base Graph Construction.png  used on input line 16.
 (pdftex.def)             Requested size: 441.01772pt x 147.00269pt.
  [37]
-<Plain NoNormalization Graph Construction.png, id=151, 1907.125pt x 1003.75pt>
+<Plain NoNormalization Graph Construction.png, id=150, 1907.125pt x 1003.75pt>
 File: Plain NoNormalization Graph Construction.png Graphic file (type png)
 <use Plain NoNormalization Graph Construction.png>
-Package pdftex.def Info: Plain NoNormalization Graph Construction.png  used on 
-input line 19.
+Package pdftex.def Info: Plain NoNormalization Graph Construction.png  used on input line 19.
 (pdftex.def)             Requested size: 441.01772pt x 232.11356pt.
 
 Overfull \hbox (36.135pt too wide) in paragraph at lines 19--21
 [][]
  []
 
-[38 <./Base Graph Construction.png> <./Plain NoNormalization Graph Construction
-.png>] [39] [40]
+[38 <./Base Graph Construction.png> <./Plain NoNormalization Graph Construction.png>] [39] [40]
 Overfull \hbox (0.2689pt too wide) in paragraph at lines 57--58
-[]\OT1/pnc/m/n/12 Module 2: Cal-cu-lat-ing the Boxes con-tains the lat-ter half
- of Stage 0: Prepa-
+[]\OT1/pnc/m/n/12 Module 2: Cal-cu-lat-ing the Boxes con-tains the lat-ter half of Stage 0: Prepa-
  []
 
 [41] [42] [43] [44]
 Overfull \hbox (16.03705pt too wide) in paragraph at lines 91--92
-[]\OT1/pnc/m/n/12 The segment-level sim-i-lar-ity be-tween two graphs will be d
-e-ter-mined through
+[]\OT1/pnc/m/n/12 The segment-level sim-i-lar-ity be-tween two graphs will be de-ter-mined through
  []
 
-<<<<<<< HEAD
-[44]) (04_results.tex [45]
+[45]) (04_results.tex [46]
 Chapter 4.
-<prelim1.png, id=178, 555.2745pt x 367.97475pt>
+<prelim1.png, id=181, 555.2745pt x 367.97475pt>
 File: prelim1.png Graphic file (type png)
 <use prelim1.png>
 Package pdftex.def Info: prelim1.png  used on input line 3.
 (pdftex.def)             Requested size: 441.01772pt x 292.26901pt.
-[46
+[47
 
  <./prelim1.png>]
 Overfull \hbox (8.33026pt too wide) in paragraph at lines 10--11
 \OT1/pnc/m/n/12 mated 3.98 sec-onds through cuda and an es-ti-mated 3.58 sec-onds through OpenCL.
  []
 
-<prelim2.png, id=183, 645.612pt x 512.51476pt>
+<prelim2.png, id=186, 645.612pt x 512.51476pt>
 File: prelim2.png Graphic file (type png)
 <use prelim2.png>
 Package pdftex.def Info: prelim2.png  used on input line 12.
@@ -983,71 +600,31 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 12--14
 [][]
  []
 
-[47]) (FinalManuscript.bbl [48 <./prelim2.png>] [49
+[48]) (FinalManuscript.bbl [49 <./prelim2.png>] [50
 
-] [50] [51] [52]
-=======
-[45]) (./FinalManuscript.bbl [46] [47
-
-] [48] [49] [50]
->>>>>>> seth-chan-algo
+] [51] [52] [53]
 Underfull \hbox (badness 1033) in paragraph at lines 151--155
-[]\OT1/pnc/m/n/12 Nino Sher-vashidze, Pas-cal Schweitzer, Erik Jan van Leeuwen,
- Kurt
+[]\OT1/pnc/m/n/12 Nino Sher-vashidze, Pas-cal Schweitzer, Erik Jan van Leeuwen, Kurt
  []
 
-<<<<<<< HEAD
-[53]) [54] (FinalManuscript.aux)
+[54]) [55] (FinalManuscript.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7474 strings out of 467510
- 128902 string characters out of 5408794
- 536182 words of memory out of 5000000
- 36554 multiletter control sequences out of 15000+600000
+ 7476 strings out of 467510
+ 128958 string characters out of 5408794
+ 538182 words of memory out of 5000000
+ 36556 multiletter control sequences out of 15000+600000
  638435 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,10n,93p,1396b,233s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dad3z/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dad3z/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/dad3z/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/dad3z/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/dad3z/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/dad3z/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/dad3z/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/dad3z/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dad3z/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/dad3z/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/dad3z/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/dad3z/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/dad3z/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/dad3z/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on FinalManuscript.pdf (55 pages, 751407 bytes).
+Output written on FinalManuscript.pdf (56 pages, 755115 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
-=======
-[51]) [52] (./FinalManuscript.aux)
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
- ***********
- ) 
-Here is how much of TeX's memory you used:
- 7394 strings out of 476182
- 124697 string characters out of 5795596
- 1932975 words of memory out of 5000000
- 29242 multiletter control sequences out of 15000+600000
- 568783 words of font info for 67 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 87i,10n,93p,1349b,228s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
-msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on FinalManuscript.pdf (53 pages, 629590 bytes).
-PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
->>>>>>> seth-chan-algo
+ 275 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

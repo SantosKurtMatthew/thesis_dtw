@@ -39,17 +39,17 @@ Before discussing Gold and Sharir's algorithm, we describe below Chan's divide-a
 Let $L=R\cup B$, $n=|L|$. Let $d'\le d$. ($d'$ serves as a ``pointer'' to which dimension is being looked at for each recursive call.) There are two base cases.
 First, if $n=1$, then no pair of points can be formed, and thus we return $\text{dom}(L,R,d')=\{\}$. Second, if $d'=0$, then we return all pairs of points, i.e., $\text{dom}(L,R,0)=R\times B$.
 
-If $n>1$ and $d'>0$, then we proceed with the recursive case. Let $m$ be the median of the $d'$-th coordinates of all points in $L$. We form the sets 
+If $n>1$ and $d'>0$, then we proceed with the recursive case. Let $m$ be the median of the $d'$-th coordinates of all points in $L$. We form the sets
 \begin{align*}
-	R_{l} = \{\vec{r}=(r_1,r_2,\dotsc,r_d)\mid\vec{r} \in R, r_{d'}\le m\} \\
-	R_{r} = \{\vec{r}=(r_1,r_2,\dotsc,r_d)\mid\vec{r} \in R, r_{d'}> m\} \\
-	B_{l} = \{\vec{b}=(b_1,b_2,\dotsc,b_d)\mid\vec{b} \in B, b_{d'}\le m\} \\
-	B_{r} = \{\vec{b}=(b_1,b_2,\dotsc,b_d)\mid\vec{b} \in B, b_{d'}> m\}
+    R_{l} = \{\vec{r}=(r_1,r_2,\dotsc,r_d)\mid\vec{r} \in R, r_{d'}\le m\} \\
+    R_{r} = \{\vec{r}=(r_1,r_2,\dotsc,r_d)\mid\vec{r} \in R, r_{d'}> m\}   \\
+    B_{l} = \{\vec{b}=(b_1,b_2,\dotsc,b_d)\mid\vec{b} \in B, b_{d'}\le m\} \\
+    B_{r} = \{\vec{b}=(b_1,b_2,\dotsc,b_d)\mid\vec{b} \in B, b_{d'}> m\}
 \end{align*}
-We then perform recursive calls on $(R_l,B_l,d')$, $(R_r,B_r,d')$, and $(R_l,B_r,d'-1)$. (Note that for any $\vec{r}\in R_l$ and $\vec{b}\in B_r$, $r_{d'}<b_{d'}$. Thus, our condition is satisfied for dimension $d'$, and so we call dom on $d'-1$.) 
-To combine the solutions, we return 
+We then perform recursive calls on $(R_l,B_l,d')$, $(R_r,B_r,d')$, and $(R_l,B_r,d'-1)$. (Note that for any $\vec{r}\in R_l$ and $\vec{b}\in B_r$, $r_{d'}<b_{d'}$. Thus, our condition is satisfied for dimension $d'$, and so we call dom on $d'-1$.)
+To combine the solutions, we return
 
-$\text{dom}(R,B,d')=\text{dom}(R_l,B_l,d')\cup \text{dom}(R_r,B_r,d') \cup \text{dom}(R_l,B_r,d'-1).$ 
+$\text{dom}(R,B,d')=\text{dom}(R_l,B_l,d')\cup \text{dom}(R_r,B_r,d') \cup \text{dom}(R_l,B_r,d'-1).$
 
 
 Module 1: Segmenting the Input Sequences contains half of the Stage 0: Preparations from Gold and Sharir's original paper \cite{OmerGold}. The module takes the two input sequences and segments them into subsqeuences that overlap. Afterwards, a distance matrix or \textit{box} is calculated using every pair of subsequences from A and B. The expected input of this module is two sequences and the expected output are distance matrices for every pair of subsequences.

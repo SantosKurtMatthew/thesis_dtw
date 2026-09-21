@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex FinalManuscript"] 1789808290.1825 "FinalManuscript.aux" "FinalManuscript.bbl" "FinalManuscript" 1789808570.54404 0
+["bibtex FinalManuscript"] 1789972505.42242 "FinalManuscript.aux" "FinalManuscript.bbl" "FinalManuscript" 1789972507.62718 0
   "./sigproc.bib" 1789801987 9737 979ad1fe4cb6cff365d58e03cb3cc229 ""
   "C:/Users/dad3z/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "FinalManuscript.aux" 1789808569 8372 efca45ebe3fbaa459a8bbe687c664090 "pdflatex"
+  "FinalManuscript.aux" 1789972506 8397 a1329a9bd9bb71241cb50c749646e8b8 "pdflatex"
   (generated)
   "FinalManuscript.bbl"
   "FinalManuscript.blg"
   (rewritten before read)
-["pdflatex"] 1789808566.9382 "c:/Users/dad3z/Downloads/thesis_dtw/Manuscript/FinalManuscript.tex" "FinalManuscript.pdf" "FinalManuscript" 1789808570.54519 0
+["pdflatex"] 1789972505.68461 "c:/Users/dad3z/Downloads/thesis_dtw/Manuscript/FinalManuscript.tex" "FinalManuscript.pdf" "FinalManuscript" 1789972507.6277 0
   "01_introduction_00.tex" 1782823447 1878 96292ae6703db245a600c92c706edb93 ""
   "01_introduction_01contextofstudy.tex" 1782823447 6914 d3eafc1d4c6e238eb58c4c3d3f631b73 ""
   "01_introduction_02researchquestions.tex" 1782823447 533 418a288dfaab2348d77374cae765edfe ""
@@ -15,8 +15,8 @@
   "01_introduction_04significanceofstudy.tex" 1782823447 1356 0e51f7b90a6fc4946b487f61be4362c4 ""
   "01_introduction_05scopeandlimitations.tex" 1782823447 1157 f17398ee77d174b69f61ff7392c07251 ""
   "02_relatedliterature.tex" 1789801987 34406 a4798b994faa1b955e0ca9178914569c ""
-  "03_methodology.tex" 1789802671 10512 92a618471bf611b70f015415727e53dd ""
-  "04_results.tex" 1789808566 1580 19b884bdd470899f562918def950dbbf ""
+  "03_methodology.tex" 1789972497 12239 c1aa1debce7e00e90eefa03ab5b3510a ""
+  "04_results.tex" 1789972368 1594 19b884bdd470899f562918def950dbbf ""
   "Base Graph Construction.png" 1782823447 31311 7d5bd839cfb9606d9012187410eb9a20 ""
   "C:/Users/dad3z/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1783915513 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/dad3z/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1783915595 13367062 9e1a28b57434ba9a5d36760bc2e7b34f ""
@@ -127,15 +127,15 @@
   "Figures/squares.png" 1789801987 90548 c4045a9de7dea366b7515ab743618e75 ""
   "Figures/staircasepath.png" 1789801987 76953 897d6fdbd2f35acafc082e3ddd2d2e2d ""
   "Figures/subsets.png" 1789801987 24756 3a1b48c2c5df4a30fc5e670d63d9d916 ""
-  "FinalManuscript.aux" 1789808569 8372 efca45ebe3fbaa459a8bbe687c664090 "pdflatex"
-  "FinalManuscript.bbl" 1789808290 6621 72f7696f0cde028a456b863fe6aed486 "bibtex FinalManuscript"
-  "FinalManuscript.tex" 1789806184 2264 5269167ac021949a219b628bb11cf680 ""
+  "FinalManuscript.aux" 1789972506 8397 a1329a9bd9bb71241cb50c749646e8b8 "pdflatex"
+  "FinalManuscript.bbl" 1789972505 6621 72f7696f0cde028a456b863fe6aed486 "bibtex FinalManuscript"
+  "FinalManuscript.tex" 1789972368 2264 5269167ac021949a219b628bb11cf680 ""
   "Plain NoNormalization Graph Construction.png" 1782823447 55464 3ba70e57939bf99faade178b53d7dcea ""
   "Plain_Methodology.png" 1782823447 100521 4ba90b2f34fc5e3e4662b4c62402f2f8 ""
-  "c:/Users/dad3z/Downloads/thesis_dtw/Manuscript/FinalManuscript.tex" 1789806184 2264 5269167ac021949a219b628bb11cf680 ""
+  "c:/Users/dad3z/Downloads/thesis_dtw/Manuscript/FinalManuscript.tex" 1789972368 2264 5269167ac021949a219b628bb11cf680 ""
   "discsthesis.cls" 1789801987 39977 172d516cd5c1fdd3b76b7ead0c92f900 ""
-  "prelim1.png" 1789805939 69882 7baa3261aa7fd1bc83b1bebbbd78e9f5 ""
-  "prelim2.png" 1789805922 99935 10e6db9474dfc470f1f5d40ff0e4b4ab ""
+  "prelim1.png" 1789972368 69882 7baa3261aa7fd1bc83b1bebbbd78e9f5 ""
+  "prelim2.png" 1789972368 99935 10e6db9474dfc470f1f5d40ff0e4b4ab ""
   (generated)
   "FinalManuscript.aux"
   "FinalManuscript.log"
