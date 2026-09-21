@@ -22,7 +22,7 @@ Figure 3.3: Modified Graph Construction
 \subsection{Sub-quadratic Dynamic Time Warping}
 The DTW-distance computations are performed using an extension of the sub-quadratic $O(n^2 \log\log\log{n}/\log{\log{n}})$ DTW algorithm described in Theorem 2.1 in the Gold and Sharir paper \cite{OmerGold}.The DTW algorithm  from Gold and Sharir is extended to work with two sequences of different lengths, referred to as the $m\le n$ case, as well as to be able to work with points in higher dimensional spaces (in this case, $\mathbb{R}^8$), which Gold and Sharir also covered in section 4.1 of their paper. For higher dimensions, the algorithm functions as described with no significant changes.
 
-The SMAWK algorithm will not be implemented in this paper in order to focus on the base algorithm described by Gold and Sharir in their paper. Nevertheless, $O(n^2 log\ log\ log\ n\ / log\ log\ n)$ will still be an improvement to the existing $O(n^2)$ runtime of DTW.
+The SMAWK algorithm will not be implemented in this paper in order to focus on the base algorithm described by Gold and Sharir in their paper. Nevertheless, $O(n^2 \log\log\log n / \log \log n)$ will still be an improvement to the existing $O(n^2)$ runtime of DTW.
 
 In the actual implementation of the algorithm, it has been divided into six modules for the sake of better modularity and improved tracing of the algorithm. The modules and titles are as follows:
 \begin{enumerate}
@@ -33,6 +33,24 @@ In the actual implementation of the algorithm, it has been divided into six modu
     \item Identifying the Optimal Path
     \item Tracing the Complete Path
 \end{enumerate}
+
+Before discussing Gold and Sharir's algorithm, we describe below Chan's divide-and-conquer algorithm for the bichromatic dominating pairs problem \cite{ChanDominance}. This algorithm, which we denote $\text{dom}(R,B,d')$ returns all pairs of points in $\mathbb{R}^d$, one point $\vec{r}=(r_1,r_2,\dotsc,r_d)$ from a set $R$ and one point $\vec{b}=(b_1,b_2,\dotsc,b_d)$ from a set $B$, such that for all $i\in\{1,2,\dotsc,d\}, r_i\le b_i$, in $O(c_\epsilon^dn^{1+\epsilon}+K)$ time.
+
+Let $L=R\cup B$, $n=|L|$. Let $d'\le d$. ($d'$ serves as a ``pointer'' to which dimension is being looked at for each recursive call.) There are two base cases.
+First, if $n=1$, then no pair of points can be formed, and thus we return $\text{dom}(L,R,d')=\{\}$. Second, if $d'=0$, then we return all pairs of points, i.e., $\text{dom}(L,R,0)=R\times B$.
+
+If $n>1$ and $d'>0$, then we proceed with the recursive case. Let $m$ be the median of the $d'$-th coordinates of all points in $L$. We form the sets 
+\begin{align*}
+	R_{l} = \{\vec{r}=(r_1,r_2,\dotsc,r_d)\mid\vec{r} \in R, r_{d'}\le m\} \\
+	R_{r} = \{\vec{r}=(r_1,r_2,\dotsc,r_d)\mid\vec{r} \in R, r_{d'}> m\} \\
+	B_{l} = \{\vec{b}=(b_1,b_2,\dotsc,b_d)\mid\vec{b} \in B, b_{d'}\le m\} \\
+	B_{r} = \{\vec{b}=(b_1,b_2,\dotsc,b_d)\mid\vec{b} \in B, b_{d'}> m\}
+\end{align*}
+We then perform recursive calls on $(R_l,B_l,d')$, $(R_r,B_r,d')$, and $(R_l,B_r,d'-1)$. (Note that for any $\vec{r}\in R_l$ and $\vec{b}\in B_r$, $r_{d'}<b_{d'}$. Thus, our condition is satisfied for dimension $d'$, and so we call dom on $d'-1$.) 
+To combine the solutions, we return 
+
+$\text{dom}(R,B,d')=\text{dom}(R_l,B_l,d')\cup \text{dom}(R_r,B_r,d') \cup \text{dom}(R_l,B_r,d'-1).$ 
+
 
 Module 1: Segmenting the Input Sequences contains half of the Stage 0: Preparations from Gold and Sharir's original paper \cite{OmerGold}. The module takes the two input sequences and segments them into subsqeuences that overlap. Afterwards, a distance matrix or \textit{box} is calculated using every pair of subsequences from A and B. The expected input of this module is two sequences and the expected output are distance matrices for every pair of subsequences.
 
